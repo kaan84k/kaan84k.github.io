@@ -5,10 +5,7 @@ const nav = document.querySelector("[data-nav]");
 const header = document.querySelector("[data-header]");
 
 const savedTheme = localStorage.getItem("portfolio-theme");
-const systemPrefersLight = window.matchMedia(
-  "(prefers-color-scheme: light)",
-).matches;
-root.dataset.theme = savedTheme || (systemPrefersLight ? "light" : "dark");
+root.dataset.theme = savedTheme || "dark";
 
 themeToggle.addEventListener("click", () => {
   const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
