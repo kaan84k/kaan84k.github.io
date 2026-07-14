@@ -29,6 +29,7 @@ npx serve .
 
 ## Featured projects
 
+- Kaan Kapruka Agent
 - LogicLab
 - Mini RAG System (Movie Plots)
 - Career AI

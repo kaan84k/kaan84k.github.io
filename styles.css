@@ -845,6 +845,106 @@ h2 em {
   font-size: 0.55rem;
   font-weight: 600;
 }
+.kaan-art {
+  display: grid;
+  place-items: center;
+  padding: 1.4rem;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(255, 255, 255, 0.28), transparent 24%),
+    linear-gradient(135deg, #5c2d91, #9b3b82 58%, #d46a53);
+}
+.kaan-window {
+  width: min(88%, 390px);
+  padding: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 18px;
+  background: rgba(18, 13, 28, 0.86);
+  color: #fff;
+  box-shadow: 0 24px 55px rgba(30, 8, 40, 0.34);
+  backdrop-filter: blur(10px);
+}
+.kaan-header {
+  display: grid;
+  grid-template-columns: 34px 1fr auto;
+  align-items: center;
+  gap: 0.65rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+.kaan-mark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: #ffcb45;
+  color: #23132d;
+  font-weight: 800;
+}
+.kaan-header div {
+  display: grid;
+}
+.kaan-header strong {
+  font-size: 0.72rem;
+}
+.kaan-header small {
+  color: rgba(255, 255, 255, 0.52);
+  font-size: 0.48rem;
+}
+.kaan-header i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8ce99a;
+  box-shadow: 0 0 0 4px rgba(140, 233, 154, 0.12);
+}
+.kaan-chat {
+  display: grid;
+  gap: 0.45rem;
+  padding: 0.75rem 0;
+}
+.kaan-chat p {
+  width: 78%;
+  padding: 0.55rem 0.7rem;
+  border-radius: 10px 10px 10px 3px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 0.48rem;
+  line-height: 1.45;
+}
+.kaan-chat p:first-child {
+  justify-self: end;
+  border-radius: 10px 10px 3px 10px;
+  background: #ffcb45;
+  color: #291832;
+}
+.kaan-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+}
+.kaan-products i {
+  height: 31px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #f1d0a7, #b86e55);
+}
+.kaan-products i:nth-child(2) {
+  background: linear-gradient(135deg, #c2dbb5, #6f9c82);
+}
+.kaan-products i:nth-child(3) {
+  background: linear-gradient(135deg, #d5c5ef, #8871ad);
+}
+.kaan-badge {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 1rem;
+  color: rgba(255, 255, 255, 0.68);
+  font: 0.46rem "DM Mono", monospace;
+  letter-spacing: 0.12em;
+}
+.kaan-art + .project-card-body .project-card-footer a {
+  font-size: 0.46rem;
+  font-weight: 700;
+}
 .rag-art {
   background: #796eff;
 }
