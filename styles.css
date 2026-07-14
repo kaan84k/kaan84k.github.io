@@ -1261,6 +1261,8 @@ h2 em {
 }
 .project-more {
   position: relative;
+  grid-column: 1 / -1;
+  min-height: 340px;
   justify-content: flex-end;
   background: #a8ff35;
   color: #111;
@@ -1272,15 +1274,24 @@ h2 em {
 .project-more .project-card-body {
   position: relative;
   z-index: 2;
+  max-width: 68%;
+  padding: 3rem;
+}
+.project-more .project-card-body > p {
+  max-width: 640px;
+  margin-bottom: 1.8rem;
+}
+.project-more .button {
+  align-self: flex-start;
 }
 .more-orbit {
   position: absolute;
-  width: 390px;
-  height: 390px;
+  width: 520px;
+  height: 520px;
   border: 1px solid rgba(17, 17, 17, 0.24);
   border-radius: 50%;
-  right: -10%;
-  top: -34%;
+  right: -5%;
+  top: -62%;
 }
 .more-orbit i {
   position: absolute;
@@ -1704,6 +1715,20 @@ h2 em {
   }
   .project-card {
     min-height: 500px;
+  }
+  .project-more {
+    grid-column: auto;
+    min-height: 440px;
+  }
+  .project-more .project-card-body {
+    max-width: 100%;
+    padding: 2rem;
+  }
+  .more-orbit {
+    width: 390px;
+    height: 390px;
+    right: -30%;
+    top: -24%;
   }
   .capability {
     grid-template-columns: 0.2fr 1fr;
