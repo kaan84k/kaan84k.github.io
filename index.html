@@ -21,9 +21,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Poppins:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="canonical" href="https://kaan84k.github.io/" />
+    <meta property="og:url" content="https://kaan84k.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <script>
+      try { const theme = localStorage.getItem('portfolio-theme');
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+      } catch (_) {}
+    </script>
     <link rel="stylesheet" href="styles.css" />
     <title>Kalana Hewapathirana — Portfolio</title>
     <script type="application/ld+json">
@@ -31,9 +39,9 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Kalana Hewapathirana",
-        "jobTitle": "AI/ML Engineer and Computing Educator",
+        "jobTitle": "Software Developer and Computing Educator",
         "alumniOf": "South Eastern University of Sri Lanka",
-        "url": "https://github.com/kaan84k",
+        "url": "https://kaan84k.github.io/",
         "sameAs": [
           "https://github.com/kaan84k",
           "https://www.linkedin.com/in/hewapathirana-kr/",
@@ -53,7 +61,7 @@
         <span class="brand-text">Kalana<small>Hewapathirana</small></span>
       </a>
 
-      <nav class="nav" aria-label="Main navigation" data-nav>
+      <nav id="main-navigation" class="nav" aria-label="Main navigation" data-nav>
         <a href="#work">Work</a>
         <a href="#capabilities">Capabilities</a>
         <a href="#experience">Experience</a>
@@ -86,7 +94,7 @@
           class="menu-button"
           type="button"
           data-menu-toggle
-          aria-label="Open navigation"
+          aria-controls="main-navigation" aria-label="Open navigation"
           aria-expanded="false"
         >
           <span></span><span></span>
@@ -100,17 +108,11 @@
         <div class="hero-orbit orbit-two" aria-hidden="true"></div>
         <div class="hero-copy reveal">
           <div class="availability">
-            <span></span> Open to meaningful opportunities
+            <span></span> Open to AI/ML &amp; software opportunities
           </div>
-          <p class="eyebrow">AI/ML · Full-stack · Computing education</p>
-          <h1>
-            I build technology that makes <em>complex ideas</em> feel simple.
-          </h1>
-          <p class="hero-lede">
-            I’m Kalana, a Computer Science graduate turning AI research, product
-            thinking, and modern web engineering into practical tools people can
-            actually use.
-          </p>
+          <p class="eyebrow">Kalana Hewapathirana / Developer &amp; Educator</p>
+          <h1>Practical AI.<br/>Thoughtful code.<br/><em>Human impact.</em></h1>
+          <p class="hero-lede">I turn complex ideas into useful software. A Computer Science graduate building AI tools, modern web experiences, and better ways to learn — from Sri Lanka.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#work"
               >Explore selected work <span aria-hidden="true">↓</span></a
@@ -151,12 +153,11 @@
         <div
           class="hero-visual reveal"
           data-delay="1"
-          role="img"
-          aria-label="Developer profile illustration"
+          aria-label="About Kalana"
         >
           <div class="profile-card">
             <div class="profile-topline">
-              <span>PROFILE / 01</span><span class="live-dot"></span>
+              <span>BASED IN SRI LANKA · AVAILABLE REMOTELY</span><span class="live-dot"></span>
             </div>
             <div class="portrait-shell">
               <img
@@ -175,51 +176,46 @@
               <div><span>Focus</span><strong>Useful AI</strong></div>
             </div>
           </div>
-          <div class="floating-chip chip-code">
-            <span>&lt;/&gt;</span> build
-          </div>
-          <div class="floating-chip chip-ai"><span>✦</span> intelligence</div>
+          <div class="floating-chip chip-code"><span>&lt;/&gt;</span> from idea to implementation</div>
+          <div class="floating-chip chip-ai"><span>✦</span> AI with a purpose</div>
         </div>
 
-        <div class="hero-proof reveal" data-delay="2">
-          <div><strong>20+</strong><span>public projects explored</span></div>
-          <div><strong>3</strong><span>disciplines connected</span></div>
-          <div><strong>01</strong><span>goal: useful outcomes</span></div>
+        <div class="hero-proof reveal">
+          <div><strong>AI / ML</strong><span>Speech, vision &amp; retrieval</span></div>
+          <div><strong>ENGINEERING</strong><span>Interfaces, APIs &amp; developer tools</span></div>
+          <div><strong>EDUCATION</strong><span>Making technical ideas accessible</span></div>
         </div>
       </section>
 
-      <section
-        class="statement section reveal"
-        aria-label="Professional statement"
-      >
-        <p class="section-index">01 / Approach</p>
-        <blockquote>
-          “The best technical work doesn’t just run. It gives people a clearer
-          way to
-          <span>think, decide, and create.</span>”
-        </blockquote>
-        <p class="statement-note">
-          Engineering discipline, educator-level clarity, and product-minded
-          delivery.
-        </p>
+      <section class="statement section reveal" aria-label="Professional approach">
+        <p class="section-index">01 / The approach</p>
+        <div><h2>Build with purpose.<br/><span>Explain with clarity.</span></h2>
+        <p class="statement-note">My work connects machine learning, software engineering, and the classroom. I care about tools that solve real problems — and make sense to the people using them.</p></div>
       </section>
 
       <section class="work section" id="work">
         <div class="section-heading reveal">
           <div>
             <p class="section-index">02 / Selected work</p>
-            <h2>Projects with a point of view.</h2>
+            <h2>Selected work<span class="heading-dot">.</span></h2>
           </div>
           <p>
-            Seven selected builds spanning agentic commerce, educational
-            technology, generative AI, local-language speech, digital
-            publishing, and product analytics.
+            Explore applied AI, public-data tools, developer utilities, and interactive learning experiences. Filter by the work that interests you.
           </p>
         </div>
 
-        <article class="feature-project project-logic reveal">
+        <div class="work-toolbar">
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button type="button" data-filter="all" aria-pressed="true">All work</button>
+            <button type="button" data-filter="ai" aria-pressed="false">AI &amp; ML</button>
+            <button type="button" data-filter="engineering" aria-pressed="false">Engineering</button>
+            <button type="button" data-filter="education" aria-pressed="false">Education</button>
+          </div>
+          <span class="project-count" role="status" aria-live="polite" data-project-count>10 projects</span>
+        </div>
+        <article class="feature-project project-logic reveal" data-project data-category="education engineering">
           <div class="project-copy">
-            <div class="project-number">01</div>
+            <div class="project-number">FEATURED BUILD <span>01 / 10</span></div>
             <div class="project-type">EdTech · TypeScript · Open source</div>
             <h3>LogicLab</h3>
             <p>
@@ -248,30 +244,57 @@
               >
             </div>
           </div>
-          <div
-            class="project-preview logic-preview"
-            role="img"
-            aria-label="Abstract preview of LogicLab"
-          >
-            <div class="preview-toolbar">
-              <i></i><i></i><i></i><span>logiclab / circuit-01</span>
-            </div>
-            <div class="gate-panel">
-              <div class="gate input-gate"><span>IN</span><b>1</b></div>
-              <div class="wire wire-a"></div>
-              <div class="gate and-gate">
-                <span>&amp;</span><small>AND</small>
+          <div class="project-preview logic-preview">
+            <div class="preview-toolbar"><i></i><i></i><i></i><span>logiclab / interactive preview</span></div>
+            <div class="logic-demo">
+              <p class="demo-eyebrow">A SMALL IDEA. A LIVE RESULT.</p>
+              <div class="circuit">
+                <div class="circuit-inputs">
+                  <button type="button" class="signal" data-input="a" aria-pressed="true" aria-label="Input A, on">A <b>1</b></button>
+                  <button type="button" class="signal" data-input="b" aria-pressed="true" aria-label="Input B, on">B <b>1</b></button>
+                </div>
+                <span class="circuit-wire" aria-hidden="true"></span>
+                <div class="circuit-gate"><strong>&amp;</strong><span>AND</span></div>
+                <span class="circuit-wire" aria-hidden="true"></span>
+                <div class="circuit-output" data-output data-on="true"><i aria-hidden="true"></i><span>OUT <b>1</b></span></div>
               </div>
-              <div class="wire wire-b"></div>
-              <div class="gate led-gate"><i></i><small>OUT</small></div>
-              <div class="grid-label label-a">SIGNAL: HIGH</div>
-              <div class="grid-label label-b">LIVE SIMULATION</div>
+              <p class="logic-result" data-logic-result role="status" aria-live="polite">1 AND 1 = 1 · Both inputs are on.</p>
+              <p class="demo-hint">Try it: tap A or B to change the signal.</p>
             </div>
           </div>
         </article>
 
         <div class="project-grid">
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-project data-category="engineering ai">
+            <div class="project-art civic-art" aria-hidden="true">
+              <div class="art-topline">PUBLIC DATA / OPEN ACCESS <span>↗</span></div>
+              <div class="civic-title">From PDFs.<br/>To perspective.</div>
+              <div class="pipeline"><span>PDF</span><i>→</i><span>DATA</span><i>→</i><span>INSIGHT</span></div>
+            </div>
+            <div class="project-card-body"><div class="project-type">Public data · In development</div>
+              <h3>Sri Lanka Anti-Corruption Dashboard</h3>
+              <p>Turning public CIABOC court cause lists into structured, searchable data with a Python pipeline, API, and interactive dashboard.</p>
+              <div class="project-card-footer"><span>Python · FastAPI · SQLite · React</span><a href="https://github.com/kaan84k/Sri-Lanka-Anti-Corruption-Dashboard" target="_blank" rel="noreferrer" aria-label="View Anti-Corruption Dashboard source">↗</a></div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project data-category="engineering">
+            <div class="project-art registry-art" aria-hidden="true"><div class="art-topline">DEVELOPER TOOLS / GO <span>⌘</span></div>
+              <div class="registry-terminal"><span>~/my-project</span><p><b>$</b> varregistry init</p><p><b>$</b> varregistry add ENV staging</p><p><b>$</b> varregistry run -- app</p><small>One command. The right environment.</small></div>
+            </div>
+            <div class="project-card-body"><div class="project-type">Developer tooling · Open source</div><h3>VarRegistry</h3>
+              <p>A dependency-free Go CLI that loads project-specific environment variables into a single command, with environment isolation and optional Vault integration.</p>
+              <div class="project-card-footer"><span>Go · YAML · Vault · GitHub Actions</span><a href="https://github.com/kaan84k/VarRegistry" target="_blank" rel="noreferrer" aria-label="View VarRegistry source">↗</a></div>
+            </div>
+          </article>
+          <article class="project-card reveal" data-project data-category="engineering education">
+            <div class="project-art exam-art" aria-hidden="true"><div class="art-topline">LEARNING TOOLS / CLOUD <span>↗</span></div><strong>Practice.<br/>Review. Repeat.</strong><div class="exam-steps"><span>01 Learn</span><span>02 Test</span><span>03 Improve</span></div></div>
+            <div class="project-card-body"><div class="project-type">Education · React application</div><h3>AWS Practice Exam Console</h3>
+              <p>An offline-capable practice interface with review, saved progress, and 23 question banks. Built on community question content credited to its upstream author.</p>
+              <div class="project-card-footer"><span>React · Vite · Tailwind CSS</span><a href="https://github.com/kaan84k/AWS-Certified-Cloud-Practitioner-Practice-Exam" target="_blank" rel="noreferrer" aria-label="View AWS Practice Exam Console source">↗</a></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project data-category="ai engineering">
             <div class="project-art kaan-art" aria-hidden="true">
               <div class="kaan-window">
                 <div class="kaan-header">
@@ -310,7 +333,7 @@
             </div>
           </article>
 
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-project data-category="ai">
             <div class="project-art rag-art" aria-hidden="true">
               <div class="search-pill">What happens in the story?</div>
               <div class="doc-stack"><i></i><i></i><i></i></div>
@@ -337,11 +360,11 @@
             </div>
           </article>
 
-          <article class="project-card reveal" data-delay="1">
+          <article class="project-card reveal" data-delay="1" data-project data-category="ai engineering">
             <div class="project-art career-art" aria-hidden="true">
               <div class="terminal-bar"><i></i><i></i><i></i></div>
               <div class="career-score">
-                <span>FIT SCORE</span><strong>87</strong><small>/100</small>
+                <span>FIT SCORE</span><strong>87</strong><small>/100 · demo</small>
               </div>
               <div class="career-lines"><i></i><i></i><i></i></div>
               <div class="career-status">APPLY</div>
@@ -367,7 +390,7 @@
             </div>
           </article>
 
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-project data-category="education engineering">
             <div class="project-art dhamma-art" aria-hidden="true">
               <div class="dhamma-sun"></div>
               <div class="dhamma-title">
@@ -397,7 +420,7 @@
             </div>
           </article>
 
-          <article class="project-card reveal" data-delay="1">
+          <article class="project-card reveal" data-delay="1" data-project data-category="ai">
             <div class="project-art speech-art" aria-hidden="true">
               <div class="waveform">
                 <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
@@ -436,12 +459,12 @@
             </div>
           </article>
 
-          <article class="project-card reveal">
+          <article class="project-card reveal" data-project data-category="ai engineering">
             <div class="project-art dashboard-art" aria-hidden="true">
               <div class="dash-window">
                 <div class="dash-side"><i></i><i></i><i></i><i></i></div>
                 <div class="dash-main">
-                  <div class="dash-kpis"><b>248</b><b>14</b><b>91%</b></div>
+                  <div class="dash-kpis"><b>DATA</b><b>NLP</b><b>BUGS</b></div>
                   <div class="dash-chart">
                     <i></i><i></i><i></i><i></i><i></i><i></i>
                   </div>
@@ -564,7 +587,7 @@
           <article>
             <span class="timeline-marker"></span>
             <div class="timeline-meta">
-              <strong>Present focus</strong><span>Computing education</span>
+              <strong>Current role</strong><span>IES College International</span>
             </div>
             <div>
               <h3>IT &amp; Computing Educator</h3>
@@ -580,7 +603,7 @@
               <strong>Industry</strong><span>SLT Telecom PLC</span>
             </div>
             <div>
-              <h3>AI/ML Intern</h3>
+              <h3>Former AI/ML Intern</h3>
               <p>
                 Worked on computer vision, NLP, location intelligence,
                 dashboards, and data-driven operational tools.
@@ -607,7 +630,7 @@
         <div class="contact-grid" aria-hidden="true"></div>
         <div class="contact-copy reveal">
           <p class="section-index">05 / Contact</p>
-          <h2>Have a useful problem?<br /><em>Let’s build the answer.</em></h2>
+          <h2>Good work starts<br/>with <em>a conversation.</em></h2>
           <p>
             I’m interested in AI/ML, full-stack, educational technology, and
             collaborative open-source opportunities.
@@ -650,10 +673,10 @@
         <span class="brand-mark">KH</span
         ><span class="brand-text">Kalana<small>Hewapathirana</small></span>
       </div>
-      <p>Designed for clarity. Built for the web.</p>
+      <p>Built with intention. Always learning.</p>
       <p>© <span data-year></span> Kalana Hewapathirana</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>

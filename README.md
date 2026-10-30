@@ -7,7 +7,10 @@ A responsive, accessible single-page portfolio presenting Kalana's work across A
 - Selected GitHub projects with focused case-study copy
 - Direct links to GitHub, LinkedIn, Medium, and Hugging Face
 - Responsive dark/light design
-- Mobile navigation and scroll-based reveal animations
+- Project filters for AI/ML, engineering, and education
+- Interactive AND-gate demo inspired by LogicLab
+- Poppins typography, responsive mobile navigation, and light/dark themes
+- Content remains visible without JavaScript; preference storage is optional
 - No build step or runtime dependency
 - Semantic HTML, keyboard-friendly controls, and reduced-motion support
 - SEO metadata and structured person data
@@ -29,6 +32,9 @@ npx serve .
 
 ## Featured projects
 
+- Sri Lanka Anti-Corruption Dashboard
+- VarRegistry
+- AWS Practice Exam Console
 - Kaan Kapruka Agent
 - LogicLab
 - Mini RAG System (Movie Plots)
