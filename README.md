@@ -9,7 +9,7 @@ A responsive, accessible single-page portfolio presenting Kalana's work across A
 - Responsive dark/light design
 - Project filters for AI/ML, engineering, and education
 - Interactive AND-gate demo inspired by LogicLab
-- Poppins typography, responsive mobile navigation, and light/dark themes
+- Self-hosted DM Sans and Space Grotesk typography, responsive mobile navigation, and light/dark themes
 - Content remains visible without JavaScript; preference storage is optional
 - No build step or runtime dependency
 - Semantic HTML, keyboard-friendly controls, and reduced-motion support
@@ -20,8 +20,14 @@ A responsive, accessible single-page portfolio presenting Kalana's work across A
 Open `index.html` directly, or serve the directory:
 
 ```bash
-npx serve .
+python3 -m http.server 8000
 ```
+
+Alternatively, use `npx serve .` if Node.js is available.
+
+Fonts are included in `assets/fonts/` under their accompanying SIL Open Font
+Licenses (Fontsource packages, version 5.3.0). No external font request or build
+step is required. The GitHub profile image has a styled monogram fallback.
 
 ## Deploy with GitHub Pages
 
@@ -32,6 +38,7 @@ npx serve .
 
 ## Featured projects
 
+- B&B CashDesk — café cashbook, cash flow, cheque tracking, and financial reports
 - Sri Lanka Anti-Corruption Dashboard
 - VarRegistry
 - AWS Practice Exam Console

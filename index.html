@@ -7,7 +7,7 @@
       name="description"
       content="Portfolio of Kalana Hewapathirana — AI/ML engineer, full-stack developer, and computing educator building practical technology products."
     />
-    <meta name="theme-color" content="#0b0d10" />
+    <meta name="theme-color" content="#0b1118" />
     <meta
       property="og:title"
       content="Kalana Hewapathirana — AI/ML &amp; Full-Stack Developer"
@@ -18,21 +18,18 @@
     />
     <meta property="og:type" content="website" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Poppins:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="canonical" href="https://kaan84k.github.io/" />
     <meta property="og:url" content="https://kaan84k.github.io/" />
     <meta name="twitter:card" content="summary" />
     <script>
+      document.documentElement.classList.add('js');
       try { const theme = localStorage.getItem('portfolio-theme');
         if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
       } catch (_) {}
     </script>
-    <link rel="stylesheet" href="styles.css?v=20261030" />
+    <link rel="stylesheet" href="styles.css?v=20261111" />
     <title>Kalana Hewapathirana — Portfolio</title>
     <script type="application/ld+json">
       {
@@ -53,7 +50,6 @@
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <div class="page-noise" aria-hidden="true"></div>
 
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="Kalana Hewapathirana — Home">
@@ -88,7 +84,7 @@
           target="_blank"
           rel="noreferrer"
         >
-          GitHub <span aria-hidden="true">↗</span>
+          GitHub <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span>
         </a>
         <button
           class="menu-button"
@@ -104,21 +100,19 @@
 
     <main id="main">
       <section class="hero section" id="top">
-        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
-        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
         <div class="hero-copy reveal">
           <div class="availability">
-            <span></span> Open to AI/ML &amp; software opportunities
+            <span></span> Available for new opportunities
           </div>
-          <p class="eyebrow">Kalana Hewapathirana / Developer &amp; Educator</p>
-          <h1>Practical AI.<br/>Thoughtful code.<br/><em>Human impact.</em></h1>
-          <p class="hero-lede">I turn complex ideas into useful software. A Computer Science graduate building AI tools, modern web experiences, and better ways to learn — from Sri Lanka.</p>
+          <p class="eyebrow">Hello, I’m Kalana — developer &amp; educator</p>
+          <h1>Practical AI.<br />Thoughtful code.<br /><em>Human impact.</em></h1>
+          <p class="hero-lede">I turn complex ideas into useful software. Building AI tools, thoughtful web experiences, and better ways to learn — from Sri Lanka, for people everywhere.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#work"
-              >Explore selected work <span aria-hidden="true">↓</span></a
+              >Explore my work <svg class="arrow-icon arrow-down" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" /></svg></a
             >
             <a class="button button-text" href="#contact"
-              >Start a conversation <span aria-hidden="true">↗</span></a
+              >Let’s talk <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span></a
             >
           </div>
           <nav class="social-rail" aria-label="Professional accounts">
@@ -127,25 +121,25 @@
               href="https://github.com/kaan84k"
               target="_blank"
               rel="noreferrer"
-              >GitHub <b aria-hidden="true">↗</b></a
+              >GitHub <b aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
             <a
               href="https://www.linkedin.com/in/hewapathirana-kr/"
               target="_blank"
               rel="noreferrer"
-              >LinkedIn <b aria-hidden="true">↗</b></a
+              >LinkedIn <b aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
             <a
               href="https://medium.com/@kalanarandil"
               target="_blank"
               rel="noreferrer"
-              >Medium <b aria-hidden="true">↗</b></a
+              >Medium <b aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
             <a
               href="https://huggingface.co/kaan84"
               target="_blank"
               rel="noreferrer"
-              >Hugging Face <b aria-hidden="true">↗</b></a
+              >Hugging Face <b aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
           </nav>
         </div>
@@ -157,7 +151,7 @@
         >
           <div class="profile-card">
             <div class="profile-topline">
-              <span>BASED IN SRI LANKA · AVAILABLE REMOTELY</span><span class="live-dot"></span>
+              <span>A LITTLE ABOUT ME</span><span class="live-dot"></span>
             </div>
             <div class="portrait-shell">
               <img
@@ -168,27 +162,27 @@
                 loading="eager"
                 onerror="this.hidden=true;this.nextElementSibling.hidden=false"
               />
-              <div class="portrait-fallback" hidden>KH</div>
-              <div class="portrait-grid" aria-hidden="true"></div>
+              <div class="portrait-fallback" hidden><span>KH<span class="fallback-period">.</span></span><small>Curiosity meets craft.</small></div>
             </div>
             <div class="profile-meta">
               <div><span>Based in</span><strong>Sri Lanka</strong></div>
               <div><span>Focus</span><strong>Useful AI</strong></div>
             </div>
           </div>
-          <div class="floating-chip chip-code"><span>&lt;/&gt;</span> from idea to implementation</div>
-          <div class="floating-chip chip-ai"><span>✦</span> AI with a purpose</div>
+          <div class="floating-chip chip-code"><span>&lt;/&gt;</span><div>Ideas into interfaces<small>Built with care. Made to work.</small></div></div>
+          <div class="floating-chip chip-ai"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2v20M2 12h20M5 5l14 14M5 19 19 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" /></svg> AI with a purpose</div>
+          <p class="visual-caption"><span>DEVELOPER. EDUCATOR. ALWAYS CURIOUS.</span><span aria-hidden="true">01 / ∞</span></p>
         </div>
 
         <div class="hero-proof reveal">
-          <div><strong>AI / ML</strong><span>Speech, vision &amp; retrieval</span></div>
-          <div><strong>ENGINEERING</strong><span>Interfaces, APIs &amp; developer tools</span></div>
-          <div><strong>EDUCATION</strong><span>Making technical ideas accessible</span></div>
+          <div><span class="proof-number" aria-hidden="true">01</span><div><strong>Applied AI</strong><span>Speech, vision &amp; retrieval</span></div></div>
+          <div><span class="proof-number" aria-hidden="true">02</span><div><strong>Software engineering</strong><span>Interfaces, APIs &amp; developer tools</span></div></div>
+          <div><span class="proof-number" aria-hidden="true">03</span><div><strong>Computing education</strong><span>Making technical ideas accessible</span></div></div>
         </div>
       </section>
 
       <section class="statement section reveal" aria-label="Professional approach">
-        <p class="section-index">01 / The approach</p>
+        <p class="section-index"><span></span> The approach</p>
         <div><h2>Build with purpose.<br/><span>Explain with clarity.</span></h2>
         <p class="statement-note">My work connects machine learning, software engineering, and the classroom. I care about tools that solve real problems — and make sense to the people using them.</p></div>
       </section>
@@ -196,7 +190,7 @@
       <section class="work section" id="work">
         <div class="section-heading reveal">
           <div>
-            <p class="section-index">02 / Selected work</p>
+            <p class="section-index"><span></span> Ideas, made real</p>
             <h2>Selected work<span class="heading-dot">.</span></h2>
           </div>
           <p>
@@ -211,11 +205,11 @@
             <button type="button" data-filter="engineering" aria-pressed="false">Engineering</button>
             <button type="button" data-filter="education" aria-pressed="false">Education</button>
           </div>
-          <span class="project-count" role="status" aria-live="polite" data-project-count>10 projects</span>
+          <span class="project-count" role="status" aria-live="polite" data-project-count>11 projects</span>
         </div>
         <article class="feature-project project-logic reveal" data-project data-category="education engineering">
           <div class="project-copy">
-            <div class="project-number">FEATURED BUILD <span>01 / 10</span></div>
+            <div class="project-number">FEATURED BUILD <span>01 / 11</span></div>
             <div class="project-type">EdTech · TypeScript · Open source</div>
             <h3>LogicLab</h3>
             <p>
@@ -234,13 +228,13 @@
                 href="https://logic-lab-sigma.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
-                >Live product <span>↗</span></a
+                >Live product <span><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span></a
               >
               <a
                 href="https://github.com/kaan84k/LogicLab"
                 target="_blank"
                 rel="noreferrer"
-                >Source code <span>↗</span></a
+                >Source code <span><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span></a
               >
             </div>
           </div>
@@ -265,16 +259,44 @@
         </article>
 
         <div class="project-grid">
+          <article class="project-card reveal" data-project data-category="engineering">
+            <div class="project-art cashdesk-art" aria-hidden="true">
+              <div class="art-topline">CAFÉ CASHBOOK / LKR <span><svg class="arrow-icon" viewBox="0 0 24 24" fill="none"><path d="M6 18 18 6M6 6h12v12" /></svg></span></div>
+              <div class="cashdesk-window">
+                <div class="cashdesk-toolbar"><strong>B&amp;B CashDesk</strong><span>LKR</span></div>
+                <div class="cashdesk-summary"><strong>Daily cash flow</strong><span>Income · Expenses · Transfers</span></div>
+                <svg class="cashdesk-chart" viewBox="0 0 300 60" fill="none" preserveAspectRatio="none">
+                  <path class="cashdesk-gridline" d="M0 15h300M0 40h300" />
+                  <path class="cashdesk-area" d="M0 50 40 40 80 45 120 20 160 30 200 14 240 20 300 5v55H0Z" />
+                  <path class="cashdesk-trend" d="M0 50 40 40 80 45 120 20 160 30 200 14 240 20 300 5" />
+                </svg>
+                <div class="cashdesk-accounts"><span>Cash drawer</span><span>Bank</span><span>Safe</span></div>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-type">Finance tools · Full-stack application</div>
+              <h3>B&amp;B CashDesk</h3>
+              <p>A café cashbook for daily income and expenses, cash reconciliation, bank and safe transfers, and cheque tracking. Role-based access separates staff data entry from owner reporting, with PDF and Excel exports.</p>
+              <div class="project-card-footer">
+                <span>React · TypeScript · Supabase · Vite</span>
+                <div class="project-card-links">
+                  <a href="https://band-b-cash-desk.vercel.app/" target="_blank" rel="noreferrer" aria-label="Open B&amp;B CashDesk application">LIVE</a>
+                  <a href="https://github.com/kaan84k/BandB-CashDesk" target="_blank" rel="noreferrer" aria-label="View B&amp;B CashDesk source on GitHub">GH</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
           <article class="project-card reveal" data-project data-category="engineering ai">
             <div class="project-art civic-art" aria-hidden="true">
-              <div class="art-topline">PUBLIC DATA / OPEN ACCESS <span>↗</span></div>
+              <div class="art-topline">PUBLIC DATA / OPEN ACCESS <span><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span></div>
               <div class="civic-title">From PDFs.<br/>To perspective.</div>
               <div class="pipeline"><span>PDF</span><i>→</i><span>DATA</span><i>→</i><span>INSIGHT</span></div>
             </div>
             <div class="project-card-body"><div class="project-type">Public data · In development</div>
               <h3>Sri Lanka Anti-Corruption Dashboard</h3>
               <p>Turning public CIABOC court cause lists into structured, searchable data with a Python pipeline, API, and interactive dashboard.</p>
-              <div class="project-card-footer"><span>Python · FastAPI · SQLite · React</span><a href="https://github.com/kaan84k/Sri-Lanka-Anti-Corruption-Dashboard" target="_blank" rel="noreferrer" aria-label="View Anti-Corruption Dashboard source">↗</a></div>
+              <div class="project-card-footer"><span>Python · FastAPI · SQLite · React</span><a href="https://github.com/kaan84k/Sri-Lanka-Anti-Corruption-Dashboard" target="_blank" rel="noreferrer" aria-label="View Anti-Corruption Dashboard source"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a></div>
             </div>
           </article>
           <article class="project-card reveal" data-project data-category="engineering">
@@ -283,14 +305,14 @@
             </div>
             <div class="project-card-body"><div class="project-type">Developer tooling · Open source</div><h3>VarRegistry</h3>
               <p>A dependency-free Go CLI that loads project-specific environment variables into a single command, with environment isolation and optional Vault integration.</p>
-              <div class="project-card-footer"><span>Go · YAML · Vault · GitHub Actions</span><a href="https://github.com/kaan84k/VarRegistry" target="_blank" rel="noreferrer" aria-label="View VarRegistry source">↗</a></div>
+              <div class="project-card-footer"><span>Go · YAML · Vault · GitHub Actions</span><a href="https://github.com/kaan84k/VarRegistry" target="_blank" rel="noreferrer" aria-label="View VarRegistry source"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a></div>
             </div>
           </article>
           <article class="project-card reveal" data-project data-category="engineering education">
-            <div class="project-art exam-art" aria-hidden="true"><div class="art-topline">LEARNING TOOLS / CLOUD <span>↗</span></div><strong>Practice.<br/>Review. Repeat.</strong><div class="exam-steps"><span>01 Learn</span><span>02 Test</span><span>03 Improve</span></div></div>
+            <div class="project-art exam-art" aria-hidden="true"><div class="art-topline">LEARNING TOOLS / CLOUD <span><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span></div><strong>Practice.<br/>Review. Repeat.</strong><div class="exam-steps"><span>01 Learn</span><span>02 Test</span><span>03 Improve</span></div></div>
             <div class="project-card-body"><div class="project-type">Education · React application</div><h3>AWS Practice Exam Console</h3>
               <p>An offline-capable practice interface with review, saved progress, and 23 question banks. Built on community question content credited to its upstream author.</p>
-              <div class="project-card-footer"><span>React · Vite · Tailwind CSS</span><a href="https://github.com/kaan84k/AWS-Certified-Cloud-Practitioner-Practice-Exam" target="_blank" rel="noreferrer" aria-label="View AWS Practice Exam Console source">↗</a></div>
+              <div class="project-card-footer"><span>React · Vite · Tailwind CSS</span><a href="https://github.com/kaan84k/AWS-Certified-Cloud-Practitioner-Practice-Exam" target="_blank" rel="noreferrer" aria-label="View AWS Practice Exam Console source"><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a></div>
             </div>
           </article>
 
@@ -354,7 +376,7 @@
                   target="_blank"
                   rel="noreferrer"
                   aria-label="View Mini RAG System on GitHub"
-                  >↗</a
+                  ><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a
                 >
               </div>
             </div>
@@ -384,7 +406,7 @@
                   target="_blank"
                   rel="noreferrer"
                   aria-label="View Career AI on GitHub"
-                  >↗</a
+                  ><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a
                 >
               </div>
             </div>
@@ -414,7 +436,7 @@
                   target="_blank"
                   rel="noreferrer"
                   aria-label="View Spectrum of Theravada Buddhism on GitHub"
-                  >↗</a
+                  ><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a
                 >
               </div>
             </div>
@@ -487,16 +509,13 @@
                   target="_blank"
                   rel="noreferrer"
                   aria-label="View SLT Bug Analytics Dashboard on GitHub"
-                  >↗</a
+                  ><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a
                 >
               </div>
             </div>
           </article>
 
           <article class="project-card project-more reveal" data-delay="1">
-            <div class="more-orbit" aria-hidden="true">
-              <i></i><i></i><i></i>
-            </div>
             <div class="project-card-body">
               <div class="project-type">More on GitHub</div>
               <h3>Systems, experiments, and learning tools.</h3>
@@ -509,7 +528,7 @@
                 href="https://github.com/kaan84k?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
-                >View all repositories <span>↗</span></a
+                >View all repositories <span><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span></a
               >
             </div>
           </article>
@@ -519,7 +538,7 @@
       <section class="capabilities section" id="capabilities">
         <div class="section-heading reveal">
           <div>
-            <p class="section-index">03 / Capabilities</p>
+            <p class="section-index"><span></span> What I bring</p>
             <h2>Ideas to outcomes.</h2>
           </div>
           <p>
@@ -576,7 +595,7 @@
 
       <section class="experience section" id="experience">
         <div class="experience-intro reveal">
-          <p class="section-index">04 / Experience</p>
+          <p class="section-index"><span></span> The journey so far</p>
           <h2>Technical depth.<br /><em>Practical perspective.</em></h2>
           <p>
             My path connects applied AI, software delivery, research, and
@@ -629,7 +648,7 @@
       <section class="contact section" id="contact">
         <div class="contact-grid" aria-hidden="true"></div>
         <div class="contact-copy reveal">
-          <p class="section-index">05 / Contact</p>
+          <p class="section-index"><span></span> Let’s build something useful</p>
           <h2>Good work starts<br/>with <em>a conversation.</em></h2>
           <p>
             I’m interested in AI/ML, full-stack, educational technology, and
@@ -640,30 +659,30 @@
               href="https://www.linkedin.com/in/hewapathirana-kr/"
               target="_blank"
               rel="noreferrer"
-              ><span>LI</span><strong>LinkedIn</strong><b>↗</b></a
+              ><span>LI</span><strong>LinkedIn</strong><b><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
             <a
               href="https://github.com/kaan84k"
               target="_blank"
               rel="noreferrer"
-              ><span>GH</span><strong>GitHub</strong><b>↗</b></a
+              ><span>GH</span><strong>GitHub</strong><b><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
             <a
               href="https://medium.com/@kalanarandil"
               target="_blank"
               rel="noreferrer"
-              ><span>M</span><strong>Medium</strong><b>↗</b></a
+              ><span>M</span><strong>Medium</strong><b><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
             <a
               href="https://huggingface.co/kaan84"
               target="_blank"
               rel="noreferrer"
-              ><span>HF</span><strong>Hugging Face</strong><b>↗</b></a
+              ><span>HF</span><strong>Hugging Face</strong><b><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></b></a
             >
           </nav>
         </div>
         <div class="contact-monogram reveal" data-delay="1" aria-hidden="true">
-          KH<span>+</span>
+          <svg viewBox="0 0 160 160" fill="none"><path d="M30 130 130 30M30 30h100v100" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" /></svg>
         </div>
       </section>
     </main>
@@ -677,6 +696,6 @@
       <p>© <span data-year></span> Kalana Hewapathirana</p>
     </footer>
 
-    <script src="script.js?v=20261030" defer></script>
+    <script src="script.js?v=20261107" defer></script>
   </body>
 </html>

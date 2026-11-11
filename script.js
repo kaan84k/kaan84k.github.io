@@ -8,7 +8,7 @@ const header = document.querySelector('[data-header]');
 function setTheme(theme) {
   root.dataset.theme = theme;
   themeToggle.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`);
-  document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#10120f' : '#f4f4eb';
+  document.querySelector('meta[name="theme-color"]').content = theme === 'dark' ? '#0b1118' : '#f4f7f8';
 }
 setTheme(root.dataset.theme === 'light' ? 'light' : 'dark');
 themeToggle.addEventListener('click', () => {
