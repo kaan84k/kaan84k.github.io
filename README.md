@@ -1,4 +1,4 @@
-# Kalana Hewapathirana — Portfolio
+# Kalana Hewapathirana - Portfolio
 
 A responsive, accessible portfolio presenting Kalana's work across AI/ML, full-stack development, and computing education, with a dedicated AI Lab for educational experiments.
 
@@ -9,8 +9,8 @@ A responsive, accessible portfolio presenting Kalana's work across AI/ML, full-s
 - Responsive dark/light design
 - Project filters for AI/ML, engineering, and education
 - Interactive AND-gate demo inspired by LogicLab
-- AI Lab at `/lab/`, featuring Digital Village 3D and a real screenshot of its ICT learning world
-- Self-hosted DM Sans and Space Grotesk typography, responsive mobile navigation, and light/dark themes
+- AI Lab at `/lab/`, featuring Digital Village 3D and LogicLab with real application screenshots
+- Self-hosted Poppins body text and Space Grotesk headings, responsive mobile navigation, and light/dark themes
 - Content remains visible without JavaScript; preference storage is optional
 - No build step or runtime dependency
 - Semantic HTML, keyboard-friendly controls, and reduced-motion support
@@ -32,8 +32,8 @@ step is required. The GitHub profile image has a styled monogram fallback.
 
 Visit `/lab/` on the same server to browse the AI Lab. Shared theme, navigation,
 and footer behavior lives in `site.js`; portfolio filters and the AND-gate demo
-live in `script.js`. The lab's screenshot is served locally, and its application
-and source links open Digital Village separately without embedding the 3D app.
+live in `script.js`. The lab's screenshots are served locally, and application/source links open
+Digital Village and LogicLab separately without embedding either app.
 
 ## Deploy with GitHub Pages
 
@@ -44,7 +44,7 @@ and source links open Digital Village separately without embedding the 3D app.
 
 ## Featured projects
 
-- B&B CashDesk — café cashbook, cash flow, cheque tracking, and financial reports
+- B&B CashDesk - café cashbook, cash flow, cheque tracking, and financial reports
 - Sri Lanka Anti-Corruption Dashboard
 - VarRegistry
 - AWS Practice Exam Console
