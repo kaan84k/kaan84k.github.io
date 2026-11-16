@@ -9,7 +9,7 @@ A responsive, accessible portfolio presenting Kalana's work across AI/ML, full-s
 - Responsive dark/light design
 - Project filters for AI/ML, engineering, and education
 - Interactive AND-gate demo inspired by LogicLab
-- AI Lab at `/lab/`, featuring Digital Village 3D and LogicLab with real application screenshots
+- AI Lab at `/lab/`, a responsive two-column showcase of Digital Village 3D, LogicLab, and Protocol Explorer
 - Self-hosted Poppins body text and Space Grotesk headings, responsive mobile navigation, and light/dark themes
 - Content remains visible without JavaScript; preference storage is optional
 - No build step or runtime dependency
@@ -33,7 +33,7 @@ step is required. The GitHub profile image has a styled monogram fallback.
 Visit `/lab/` on the same server to browse the AI Lab. Shared theme, navigation,
 and footer behavior lives in `site.js`; portfolio filters and the AND-gate demo
 live in `script.js`. The lab's screenshots are served locally, and application/source links open
-Digital Village and LogicLab separately without embedding either app.
+Digital Village, LogicLab, and Protocol Explorer separately without embedding the apps.
 
 ## Deploy with GitHub Pages
 

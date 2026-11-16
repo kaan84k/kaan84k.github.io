@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="AI-assisted educational experiments by Kalana Hewapathirana. Explore Digital Village 3D, LogicLab, and interactive tools for ICT and computing education." />
+    <meta name="description" content="AI-assisted educational experiments by Kalana Hewapathirana. Explore Digital Village 3D, LogicLab, Protocol Explorer, and interactive tools for ICT and computing education." />
     <meta name="theme-color" content="#0b1118" />
     <meta property="og:title" content="AI Lab - Kalana Hewapathirana" />
     <meta property="og:description" content="Built with AI. Made for curious minds. Educational tools, playful worlds, and ideas you can explore in your browser." />
@@ -22,7 +22,7 @@
       } catch (_) {}
     </script>
     <link rel="stylesheet" href="../styles.css?v=20261116-2" />
-    <link rel="stylesheet" href="lab.css?v=20261116-2" />
+    <link rel="stylesheet" href="lab.css?v=20261116-3" />
     <title>AI Lab - Kalana Hewapathirana</title>
   </head>
   <body>
@@ -86,7 +86,7 @@
             <a class="button button-primary" href="#experiments">Explore the experiments <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" /></svg></a>
             <a class="lab-back-link" href="../">Back to portfolio <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
           </div>
-          <div class="lab-hero-meta"><span><i aria-hidden="true"></i> 02 live experiments</span><span>Education, with a sense of play</span></div>
+          <div class="lab-hero-meta"><span><i aria-hidden="true"></i> 03 live experiments</span><span>Education, with a sense of play</span></div>
         </div>
         <div class="lab-orbit" aria-hidden="true">
           <div class="lab-orbit-ring ring-one"></div>
@@ -109,64 +109,93 @@
             <p class="section-index"><span></span> 01 / The experiments</p>
             <h2 id="experiments-title">Learning, brought to life<span class="heading-dot">.</span></h2>
           </div>
-          <p>Less scrolling through notes. More exploring, trying, and discovering. Explore ICT through a digital village, or build and test circuits in LogicLab.</p>
+          <p>Less scrolling through notes. More exploring, trying, and discovering. Explore a digital village, build logic circuits, and follow the packets behind everyday connections.</p>
         </div>
-        <div class="lab-shelf-meta"><span class="lab-shelf-label">The experiment shelf</span><span>02 experiments / Ready to explore</span></div>
+        <div class="lab-shelf-meta"><span class="lab-shelf-label">The experiment shelf</span><span>03 experiments / Ready to explore</span></div>
 
-        <article class="lab-experiment" aria-labelledby="village-title">
-          <div class="lab-experiment-visual">
-            <div class="lab-window-bar"><span><i></i><i></i><i></i></span><span>01 / DIGITAL VILLAGE 3D</span><span class="lab-live-badge">Live</span></div>
-            <a class="lab-preview-link" href="https://digital-village-3d.vercel.app/" target="_blank" rel="noreferrer" aria-label="Explore Digital Village 3D (opens in a new tab)">
-              <img src="../assets/lab/digital-village-3d.jpg" width="1280" height="800" alt="A 3D village with colourful ICT learning destinations, virtual tutors, and a progress panel." fetchpriority="high" />
-              <span class="lab-preview-action">Step inside <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span>
-            </a>
-            <div class="lab-experiment-tags"><span>3D learning</span><span>ICT revision</span><span>AI-assisted build</span></div>
-          </div>
-          <div class="lab-experiment-copy">
-            <p class="section-index"><span></span> Interactive learning</p>
-            <h3 id="village-title">Digital Village <span>3D</span></h3>
-            <p>An ICT revision session, reimagined as a little world. Walk between learning destinations, meet virtual tutors, and test what you’ve learned with checkpoint quizzes.</p>
-            <ul class="lab-feature-list">
-              <li>Five destinations, from devices to processors</li>
-              <li>Revision notes, quizzes, and mastery badges</li>
-              <li>Progress saved in your browser</li>
-            </ul>
-            <p class="lab-curriculum">International GCSE ICT · 4IT1<br />Topic 1: Digital Devices</p>
-            <div class="lab-experiment-actions">
-              <a class="button button-primary" href="https://digital-village-3d.vercel.app/" target="_blank" rel="noreferrer">Enter the village <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
-              <a class="lab-back-link" href="https://github.com/kaan84k/Digital-Village-3D" target="_blank" rel="noreferrer">View source <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+        <div class="lab-project-grid">
+          <article class="lab-experiment" aria-labelledby="village-title">
+            <div class="lab-experiment-visual">
+              <div class="lab-window-bar"><span><i></i><i></i><i></i></span><span>01 / DIGITAL VILLAGE 3D</span><span class="lab-live-badge">Live</span></div>
+              <a class="lab-preview-link" href="https://digital-village-3d.vercel.app/" target="_blank" rel="noreferrer" aria-label="Explore Digital Village 3D (opens in a new tab)">
+                <img src="../assets/lab/digital-village-3d.jpg" width="1280" height="800" alt="A 3D village with colourful ICT learning destinations, virtual tutors, and a progress panel." fetchpriority="high" />
+                <span class="lab-preview-action">Step inside <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span>
+              </a>
+              <div class="lab-experiment-tags"><span>3D learning</span><span>ICT revision</span><span>AI-assisted build</span></div>
             </div>
-            <p class="lab-stack">THREE.JS / JAVASCRIPT / WEBGL</p>
-          </div>
-        </article>
+            <div class="lab-experiment-copy">
+              <p class="section-index"><span></span> Interactive learning</p>
+              <h3 id="village-title">Digital Village <span>3D</span></h3>
+              <p>An ICT revision session, reimagined as a little world. Walk between learning destinations, meet virtual tutors, and test what you’ve learned with checkpoint quizzes.</p>
+              <ul class="lab-feature-list">
+                <li>Five destinations, from devices to processors</li>
+                <li>Revision notes, quizzes, and mastery badges</li>
+                <li>Progress saved in your browser</li>
+              </ul>
+              <p class="lab-curriculum">International GCSE ICT · 4IT1<br />Topic 1: Digital Devices</p>
+              <div class="lab-experiment-actions">
+                <a class="button button-primary" href="https://digital-village-3d.vercel.app/" target="_blank" rel="noreferrer">Enter the village <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+                <a class="lab-back-link" href="https://github.com/kaan84k/Digital-Village-3D" target="_blank" rel="noreferrer">View source <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+              </div>
+              <p class="lab-stack">THREE.JS / JAVASCRIPT / WEBGL</p>
+            </div>
+          </article>
+
+          <article class="lab-experiment" aria-labelledby="logiclab-title">
+            <div class="lab-experiment-visual">
+              <div class="lab-window-bar"><span><i></i><i></i><i></i></span><span>02 / LOGICLAB</span><span class="lab-live-badge">Live</span></div>
+              <a class="lab-preview-link" href="https://logic-lab-sigma.vercel.app/" target="_blank" rel="noreferrer" aria-label="Explore LogicLab (opens in a new tab)">
+                <img src="../assets/lab/logiclab.jpg" width="1440" height="900" alt="LogicLab showing input switches wired to XOR and AND gates, with sum and carry output LEDs." loading="lazy" />
+                <span class="lab-preview-action">Try a circuit <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span>
+              </a>
+              <div class="lab-experiment-tags"><span>Digital logic</span><span>Live simulation</span><span>Learning by building</span></div>
+            </div>
+            <div class="lab-experiment-copy">
+              <p class="section-index"><span></span> Computing education</p>
+              <h3 id="logiclab-title">Logic<span>Lab</span></h3>
+              <p>A hands-on sandbox for understanding digital logic. Drop gates onto the canvas, connect them with wires, and flip inputs to see how signals travel through a circuit in real time.</p>
+              <ul class="lab-feature-list">
+                <li>Build, wire, and simulate logic circuits</li>
+                <li>Generate truth tables and trace live signals</li>
+                <li>Save circuits and share a link</li>
+              </ul>
+              <p class="lab-curriculum">Digital logic · Computing education<br />Switches, gates, signals, and truth tables</p>
+              <div class="lab-experiment-actions">
+                <a class="button button-primary" href="https://logic-lab-sigma.vercel.app/" target="_blank" rel="noreferrer">Open LogicLab <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+                <a class="lab-back-link" href="https://github.com/kaan84k/LogicLab" target="_blank" rel="noreferrer" aria-label="View LogicLab source">View source <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+              </div>
+              <p class="lab-stack">TYPESCRIPT / CANVAS / NATIVE ES MODULES</p>
+            </div>
+          </article>
+
+          <article class="lab-experiment" aria-labelledby="protocol-title">
+            <div class="lab-experiment-visual">
+              <div class="lab-window-bar"><span><i></i><i></i><i></i></span><span>03 / PROTOCOL EXPLORER</span><span class="lab-live-badge">Live</span></div>
+              <a class="lab-preview-link" href="https://protocol-explorer-rust.vercel.app/" target="_blank" rel="noreferrer" aria-label="Explore Protocol Explorer (opens in a new tab)">
+                <img src="../assets/lab/protocol-explorer.jpg" width="1440" height="900" alt="Protocol Explorer showing an HTTP network diagram, a categorized protocol library, and guided lesson explanations." loading="lazy" />
+                <span class="lab-preview-action">Follow a packet <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span>
+              </a>
+              <div class="lab-experiment-tags"><span>Networking</span><span>Packet journeys</span><span>Guided lessons</span></div>
+            </div>
+            <div class="lab-experiment-copy">
+              <p class="section-index"><span></span> Networking education</p>
+              <h3 id="protocol-title">Protocol <span>Explorer</span></h3>
+              <p>Make the internet’s invisible exchanges visible. Follow animated packet journeys, step through protocol lessons, and inspect the messages behind everyday connections.</p>
+              <ul class="lab-feature-list">
+                <li>20 lessons, from HTTP and DNS to TCP and TLS</li>
+                <li>Network diagrams and step-by-step packet inspection</li>
+                <li>Knowledge checks and saved learning progress</li>
+              </ul>
+              <p class="lab-curriculum">Networking fundamentals<br />Illustrative simulations, guided paths, and a glossary</p>
+              <div class="lab-experiment-actions">
+                <a class="button button-primary" href="https://protocol-explorer-rust.vercel.app/" target="_blank" rel="noreferrer">Open Protocol Explorer <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+                <a class="lab-back-link" href="https://github.com/kaan84k/Protocol-Explorer" target="_blank" rel="noreferrer" aria-label="View Protocol Explorer source">View source <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+              </div>
+              <p class="lab-stack">REACT / TYPESCRIPT / VITE</p>
+            </div>
+          </article>
+        </div>
         <p class="lab-content-note">Digital Village uses original, specification-aligned revision notes and practice questions. It is an independent learning experiment, not an official Pearson resource.</p>
-
-        <article class="lab-experiment" aria-labelledby="logiclab-title">
-          <div class="lab-experiment-visual">
-            <div class="lab-window-bar"><span><i></i><i></i><i></i></span><span>02 / LOGICLAB</span><span class="lab-live-badge">Live</span></div>
-            <a class="lab-preview-link" href="https://logic-lab-sigma.vercel.app/" target="_blank" rel="noreferrer" aria-label="Explore LogicLab (opens in a new tab)">
-              <img src="../assets/lab/logiclab.jpg" width="1440" height="900" alt="LogicLab showing input switches wired to XOR and AND gates, with sum and carry output LEDs." loading="lazy" />
-              <span class="lab-preview-action">Try a circuit <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></span>
-            </a>
-            <div class="lab-experiment-tags"><span>Digital logic</span><span>Live simulation</span><span>Learning by building</span></div>
-          </div>
-          <div class="lab-experiment-copy">
-            <p class="section-index"><span></span> Computing education</p>
-            <h3 id="logiclab-title">Logic<span>Lab</span></h3>
-            <p>A hands-on sandbox for understanding digital logic. Drop gates onto the canvas, connect them with wires, and flip inputs to see how signals travel through a circuit in real time.</p>
-            <ul class="lab-feature-list">
-              <li>Build, wire, and simulate logic circuits</li>
-              <li>Generate truth tables and trace live signals</li>
-              <li>Save circuits and share a link</li>
-            </ul>
-            <p class="lab-curriculum">Digital logic · Computing education<br />Switches, gates, signals, and truth tables</p>
-            <div class="lab-experiment-actions">
-              <a class="button button-primary" href="https://logic-lab-sigma.vercel.app/" target="_blank" rel="noreferrer">Open LogicLab <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
-              <a class="lab-back-link" href="https://github.com/kaan84k/LogicLab" target="_blank" rel="noreferrer" aria-label="View LogicLab source">View source <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
-            </div>
-            <p class="lab-stack">TYPESCRIPT / CANVAS / NATIVE ES MODULES</p>
-          </div>
-        </article>
       </section>
 
       <section class="lab-approach" aria-labelledby="lab-approach-title">
