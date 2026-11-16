@@ -1,6 +1,6 @@
 # Kalana Hewapathirana — Portfolio
 
-A responsive, accessible single-page portfolio presenting Kalana's work across AI/ML, full-stack development, and computing education.
+A responsive, accessible portfolio presenting Kalana's work across AI/ML, full-stack development, and computing education, with a dedicated AI Lab for educational experiments.
 
 ## Highlights
 
@@ -9,6 +9,7 @@ A responsive, accessible single-page portfolio presenting Kalana's work across A
 - Responsive dark/light design
 - Project filters for AI/ML, engineering, and education
 - Interactive AND-gate demo inspired by LogicLab
+- AI Lab at `/lab/`, featuring Digital Village 3D and a real screenshot of its ICT learning world
 - Self-hosted DM Sans and Space Grotesk typography, responsive mobile navigation, and light/dark themes
 - Content remains visible without JavaScript; preference storage is optional
 - No build step or runtime dependency
@@ -28,6 +29,11 @@ Alternatively, use `npx serve .` if Node.js is available.
 Fonts are included in `assets/fonts/` under their accompanying SIL Open Font
 Licenses (Fontsource packages, version 5.3.0). No external font request or build
 step is required. The GitHub profile image has a styled monogram fallback.
+
+Visit `/lab/` on the same server to browse the AI Lab. Shared theme, navigation,
+and footer behavior lives in `site.js`; portfolio filters and the AND-gate demo
+live in `script.js`. The lab's screenshot is served locally, and its application
+and source links open Digital Village separately without embedding the 3D app.
 
 ## Deploy with GitHub Pages
 
