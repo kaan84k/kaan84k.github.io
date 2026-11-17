@@ -1,3 +1,14 @@
+.brand-logo { width: 176px; height: auto; flex-shrink: 0; }
+.brand-logo-light { display: none; }
+html[data-theme="light"] .brand-logo-dark { display: none; }
+html[data-theme="light"] .brand-logo-light { display: block; }
+.footer .brand-logo { width: 160px; }
+@media (max-width: 980px) {
+  .brand-logo { width: 160px; }
+}
+@media (max-width: 700px) {
+  .brand-logo { width: clamp(128px, 42vw, 164px); }
+}
 .lab-main {
   width: min(calc(100% - 64px), 1176px);
   margin: 148px auto 72px;
