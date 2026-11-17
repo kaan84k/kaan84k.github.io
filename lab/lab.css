@@ -14,8 +14,9 @@
   background: radial-gradient(ellipse at 95% 15%, var(--glow), transparent 60%), var(--bg-soft);
 }
 .lab-hero-copy { min-width: 0; }
-.lab-hero h1 { font-size: 88px; line-height: 1; letter-spacing: -.065em; margin-bottom: 24px; }
-.lab-hero-heading { font: 500 28px/1.25 var(--heading); letter-spacing: -.035em; margin-bottom: 18px; }
+.lab-hero h1 { font-size: 80px; line-height: 1.04; letter-spacing: -.065em; margin-bottom: 24px; }
+.lab-title-line { display: block; }
+.lab-hero-heading { font: italic 500 26px/1.5 var(--body); letter-spacing: -.025em; margin-bottom: 18px; }
 .lab-hero-description { max-width: 480px; font-size: 16px; line-height: 1.9; color: var(--muted); margin-bottom: 26px; }
 .lab-back-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; color: var(--muted); transition: color .2s; }
 .lab-back-link:hover { color: var(--accent); }
@@ -40,6 +41,9 @@
 .satellite-one { left: 4%; top: 61%; }
 .satellite-two { right: 13%; top: 18%; width: 4px; height: 4px; opacity: .7; }
 .lab-orbit-caption { position: absolute; top: 108%; width: 100%; margin: 0; text-align: center; color: var(--faint); font: 8px var(--mono); letter-spacing: .1em; }
+.lab-vision { display: grid; grid-template-columns: .3fr 1fr; align-items: center; gap: 32px; margin-top: 24px; padding: 28px 32px; border: 1px solid var(--line-strong); border-radius: 18px; background: var(--panel); }
+.lab-vision .section-index { margin: 0; }
+.lab-vision > p { margin: 0; color: var(--text); font-size: 18px; line-height: 1.8; }
 .lab-experiments { margin-top: 84px; }
 .lab-experiments .section-heading { grid-template-columns: 1.1fr .7fr; }
 .lab-experiments h2, .lab-approach h2 { font-size: 44px; }
@@ -88,15 +92,15 @@
 .lab-next .button { flex-shrink: 0; }
 @media (max-width: 1100px) {
   .lab-hero { padding: 40px; gap: 30px; }
-  .lab-hero h1 { font-size: 80px; }
-  .lab-hero-heading { font-size: 25px; }
+  .lab-hero h1 { font-size: 72px; }
+  .lab-hero-heading { font-size: 23px; }
   .lab-experiment-copy { padding: 24px 16px 18px; }
   .lab-experiment-copy h3 { font-size: 32px; }
 }
 @media (max-width: 980px) {
   .lab-main { margin-top: 126px; }
   .lab-hero { padding: 32px; grid-template-columns: minmax(0, 1.3fr) minmax(0, .8fr); gap: 24px; }
-  .lab-hero h1 { font-size: 72px; }
+  .lab-hero h1 { font-size: clamp(48px, 7vw, 68px); }
   .lab-orbit-caption { font-size: 7px; }
   .lab-hero-description { font-size: 16px; }
   .lab-experiments .section-heading { gap: 32px; }
@@ -114,8 +118,8 @@
 @media (max-width: 700px) {
   .lab-main { width: calc(100% - 32px); margin-top: 112px; margin-bottom: 48px; }
   .lab-hero { grid-template-columns: 1fr; gap: 32px; padding: 28px 24px 38px; border-radius: 22px; }
-  .lab-hero h1 { font-size: 68px; margin-bottom: 20px; }
-  .lab-hero-heading { font-size: 25px; }
+  .lab-hero h1 { font-size: clamp(44px, 14vw, 64px); margin-bottom: 20px; }
+  .lab-hero-heading { font-size: 22px; }
   .lab-hero-description { font-size: 16px; }
   .lab-hero .hero-actions { gap: 8px 18px; }
   .lab-hero .button { padding-inline: 17px; font-size: 14px; gap: 12px; }
@@ -124,6 +128,8 @@
   .lab-orbit-label { font-size: 7px; }
   .lab-orbit-caption { font-size: 6px; }
   .lab-orbit::after { inset: 24px; }
+  .lab-vision { grid-template-columns: 1fr; gap: 12px; padding: 24px; }
+  .lab-vision > p { font-size: 16px; }
   .lab-experiments { margin-top: 56px; }
   .lab-experiments .section-heading { grid-template-columns: 1fr; gap: 18px; }
   .lab-experiments h2, .lab-approach h2 { font-size: 34px; }

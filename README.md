@@ -1,6 +1,6 @@
 # Kalana Hewapathirana - Portfolio
 
-A responsive, accessible portfolio presenting Kalana's work across AI/ML, full-stack development, and computing education, with a dedicated AI Lab for educational experiments.
+A responsive, accessible portfolio presenting Kalana's work across AI/ML, full-stack development, and computing education, with Learnova AI Lab for educational tools and interactive experiences.
 
 ## Highlights
 
@@ -9,7 +9,7 @@ A responsive, accessible portfolio presenting Kalana's work across AI/ML, full-s
 - Responsive dark/light design
 - Project filters for AI/ML, engineering, and education
 - Interactive AND-gate demo inspired by LogicLab
-- AI Lab at `/lab/`, a responsive two-column showcase of Digital Village 3D, LogicLab, and Protocol Explorer
+- Learnova AI Lab at `/lab/`, a responsive two-column showcase of Digital Village 3D, LogicLab, and Protocol Explorer
 - Self-hosted Poppins body text and Space Grotesk headings, responsive mobile navigation, and light/dark themes
 - Content remains visible without JavaScript; preference storage is optional
 - No build step or runtime dependency
@@ -30,10 +30,16 @@ Fonts are included in `assets/fonts/` under their accompanying SIL Open Font
 Licenses (Fontsource packages, version 5.3.0). No external font request or build
 step is required. The GitHub profile image has a styled monogram fallback.
 
-Visit `/lab/` on the same server to browse the AI Lab. Shared theme, navigation,
+Visit `/lab/` on the same server to browse Learnova AI Lab. Shared theme, navigation,
 and footer behavior lives in `site.js`; portfolio filters and the AND-gate demo
 live in `script.js`. The lab's screenshots are served locally, and application/source links open
 Digital Village, LogicLab, and Protocol Explorer separately without embedding the apps.
+
+Learnova AI Lab: *Explore. Interact. Understand.*
+
+An educational platform creating AI-powered tools and interactive experiences to make complex concepts easier to understand.
+
+Vision: To make learning accessible, engaging, and practical for every learner.
 
 ## Deploy with GitHub Pages
 
